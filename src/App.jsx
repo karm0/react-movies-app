@@ -10,8 +10,8 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/add" element={<Add />} />
-        <Route path="/" element={<WatchList />} />
+        <Route path="/" element={<Add />} />
+        <Route path="/watchList" element={<WatchList />} />
         <Route path="/watched" element={<Watched />} />
       </Routes>
     </Router>
